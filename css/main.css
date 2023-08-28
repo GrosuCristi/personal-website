@@ -471,4 +471,15 @@ footer .container {
     #contact .contact-data {
         align-items: center;
     }
+
+    #contact p {
+        max-width: 60ch;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header .logo .icon {
+        display: none;
+    }
 }
