@@ -1,6 +1,6 @@
 :root {
     --font-family: 'Inter', sans-serif;
-    --primary: #0073cf;
+    --primary: #0071e3;
     --light-gray: #eeeeee;
     --gray: #cccccc;
     --dark-gray: #555555;
@@ -286,6 +286,18 @@ header .logo .icon {
     gap: 4rem;
 }
 
+.project {
+    padding: 2rem;
+    border: 1px solid var(--gray);
+    border-radius: 30px;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0x 30px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+}
+
 .project img {
     height: 4rem;
     width: 100%;
@@ -303,7 +315,6 @@ header .logo .icon {
     padding: 1.25rem 2.5rem;
     border-radius: 40px;
     width: fit-content;
-    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -388,6 +399,7 @@ header .logo .icon {
 footer {
     background-color: var(--light-gray);
     padding: 2rem 0;
+    margin-top: 4rem;
 }
 
 footer .container {
@@ -409,7 +421,7 @@ footer .container {
         gap: 2rem;
     }
 
-    .project .visit {
+    .project .visit, .language-button {
         font-size: 1rem;
         padding: 1rem 2rem;
     }
@@ -438,6 +450,10 @@ footer .container {
     section {
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+
+    footer {
+        margin-top: 2rem;
     }
 
     .section-title {
@@ -470,6 +486,7 @@ footer .container {
 
     #contact .contact-data {
         align-items: center;
+        gap: 0;
     }
 
     #contact p {
