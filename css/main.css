@@ -112,6 +112,7 @@ header .logo .icon {
     border: none;
     background: white;
     transition: background-color 250ms;
+    color: black;
 }
 
 .language-button span {
@@ -287,7 +288,7 @@ header .logo .icon {
 }
 
 .project {
-    padding: 2rem;
+    padding: 2rem 0;
     border: 1px solid var(--gray);
     border-radius: 30px;
     max-width: 450px;
@@ -300,9 +301,9 @@ header .logo .icon {
 
 .project img {
     height: 4rem;
-    width: 100%;
+    width: 80%;
     object-fit: contain;
-    margin: 4rem 0;
+    margin: 4rem 10%;
 }
 
 .project .visit {
